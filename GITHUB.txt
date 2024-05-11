@@ -1,0 +1,108 @@
+CLONE & STATUS :
+
+	git clone [link]
+
+	git status
+
+ADD & COMMIT :
+ADD-
+	git add <- file name ->
+
+COMMIT-
+	git commit -m "Some message"
+
+COMMIT HISTORY CHECK-
+	git log
+	
+PUSH COMMAND :
+
+	git push origin main
+~This is regular push
+
+	git push -u origin main
+~Here -u is upstream.
+~This code says that will stay at this branch repo long so we can push any changes by typing only-  git push
+
+
+INIT COMMAND :
+it is used to create new git (.git) repository on local system
+
+	git init
+
+Connect github remote repo to loacal git repo by name 'origin' :
+
+	git remote add origin <-link->
+
+To verify/check remote github repo:
+
+	git remote -v
+
+BRANCH COMMANDS :
+	
+To verify/check current branch:
+
+	git branch
+
+To rename branch:
+
+	git push -M main 
+~Here 'main' will be the renamed branch
+
+Navigate to another branch :
+
+	git checkout <- branch name ->
+
+To Create new branch :
+
+	git checkout -b <- new branch name ->
+
+To Delete branch :
+But you cannot delete current branch
+
+	git branch -d <- branch name ->
+
+COMPARE BRANCHES,COMMITS,FILES & MORE :
+
+	git diff <- to compare branch name ->
+
+MERGING CODE :
+
+Way 1:
+
+	git merge <- branch name ->
+
+Way 2:
+
+create a PR 
+Here PR is pull request.
+
+Pull Request - It is lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+PULL COMMAND :
+
+	git pull origin main
+~Used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+UNDOING CHANGES :
+
+Case 1 : (Staged changes)
+ 
+	git reset <- file name ->
+	or,
+	git reset
+
+Case 2 : (Commited changes for one commit)
+	
+	git reset HEAD~1
+
+Case 3 : (Commited changes for many commits)
+
+	git reset <- commit hash -> 
+~To get back on the selected commit
+	git reset --hard <- commit hash ->
+~To get back on the selected commit also in editor
+
+FORK :
+
+A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+Fork is a rough copy.
