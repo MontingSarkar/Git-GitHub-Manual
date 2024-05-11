@@ -63,7 +63,7 @@ But you cannot delete the current branch
 
 COMPARE BRANCHES, COMMITS, FILES & MORE :
 
-	git diff <- to compare branch name ->
+	git diff <- comparable branch name ->
 
 MERGING CODE :
 
