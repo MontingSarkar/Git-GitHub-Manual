@@ -29,7 +29,7 @@ it is used to create a new git (.git) repository on the local system
 
 	git init
 
-Connect GitHub remote repo to local git repo by the name 'origin' :
+Connect GitHub remote repository URL to local git repo by the name 'origin' :
 
 	git remote add origin <-link->
 
