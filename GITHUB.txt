@@ -29,6 +29,10 @@ it is used to create a new git (.git) repository on the local system
 
 	git init
 
+TO REMOVE (.git) file from local directory:
+
+ rm -rf .git
+
 Connect GitHub remote repository URL to local git repo by the name 'origin' :
 
 	git remote add origin <-link->
