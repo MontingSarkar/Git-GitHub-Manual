@@ -6,7 +6,11 @@ CLONE & STATUS :
 
 ADD & COMMIT :
 ADD-
+To add Specific file
 	git add <- file name ->
+
+To add all file
+  git add .
 
 COMMIT-
 	git commit -m "Some message"
